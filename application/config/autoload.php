@@ -55,10 +55,10 @@ $autoload['packages'] = array();
 |
 | You can also supply an alternative library name to be assigned
 | in the controller:
-|
+|***********$autoload['libraries'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('form_validation','session');
 
 /*
 | -------------------------------------------------------------------
@@ -86,10 +86,10 @@ $autoload['drivers'] = array();
 |  Auto-load Helper Files
 | -------------------------------------------------------------------
 | Prototype:
-|
+|*******$autoload['helper'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url','form');
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('post_model','user_model');

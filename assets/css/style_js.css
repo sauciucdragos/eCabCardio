@@ -1,0 +1,105 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+.main
+{
+width: 1015px;
+position: absolute;
+top: 10%;
+left: 20%;
+}
+#form_head
+{
+text-align: center;
+background-color: #E8F2FF;
+height: 66px;
+margin: 0 0 -29px 0;
+padding-top: 35px;
+border-radius: 8px 8px 0 0;
+color: rgb(97, 94, 94);
+}
+#content {
+position: absolute;
+width: 450px;
+height: 365px;
+border: 2px solid grey;
+border-radius: 10px;
+margin-top: 125px;
+}
+#form_input
+{
+margin-left: 50px;
+margin-top: 36px;
+}
+label
+{
+margin-right: 6px;
+font-weight: bold;
+}
+#form_button{
+padding: 0 21px 15px 15px;
+position: absolute;
+bottom: 0px;
+width: 414px;
+background-color: #E8F2FF;
+border-radius: 0px 0px 8px 8px;
+border-top: 1px solid #E8F2FF;
+margin-top: 30px;
+margin-left: 0;
+}
+.submit{
+font-size: 16px;
+background: linear-gradient( #66B2FF 5%, #0080FF 100%);
+border: 1px solid #84BBF3;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-top: 1px solid grey;
+width: 300px;
+border-radius: 5px;
+padding: 10px 0;
+outline: none;
+margin-top: 20px;
+margin-left: 15%;
+}
+.submit:hover{
+background: linear-gradient(#0080FF 5%, #004C99 100%);
+}
+.input_box{
+height:40px;
+width:240px;
+padding:20px;
+border-radius:3px;
+background-color:#E8F2FF;
+margin-left:45px;
+}
+.button_type{
+font-size: 16px;
+background: linear-gradient( #66B2FF 5%, #0080FF 100%);
+border: 1px solid #84BBF3;
+color: white;
+font-weight: bold;
+cursor: pointer;
+width: 300px;
+border-radius: 5px;
+padding: 10px 0;
+outline: none;
+margin-top: 20px;
+margin-left: 15%;
+}
+.button_type:hover{
+background: linear-gradient(#0080FF 5%, #004C99 100%);
+}
+div#js_button {
+position: absolute;
+margin-left: 800px;
+margin-top: 55px;
+}
+input#name {
+margin-left: 33px;
+}
+#button_heading
+{
+text-align: center;
+color: rgb(97, 94, 94);
+}

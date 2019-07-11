@@ -1,0 +1,23 @@
+https://www.formget.com/codeigniter-javascript/
+
+
+
+
+<button type="button" class="btn btn-success" 
+        onclick="<?php echo base_url()?>controller/function">Sign Up</button>
+
+<form name="frmEdit" id="frmEdit" action=<?php echo base_url();?>controller_name/action_name" method="post"/>
+*******************************************************
+Set this line in “application/config/config.php”.
+
+// Here is the location, where "jquery.min.js" stored.
+$config['javascript_location'] = 'http://localhost/codeigniter_javascript/js/jquery.min.js';
+
+To initialize the Javascript class manually in your controller constructor.
+
+$this->load->library('javascript'); // to load JavaScript library
+$this->load->library('javascript/jquery');
+
+One can set different events by using syntax:
+
+$this->jquery->event('element_path', code_to_run()); //Here "event" is like focus, blur, click e
