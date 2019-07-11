@@ -2,7 +2,7 @@
 <div class="container">    
 
    <h3> <?php $title  ?> </h3> 
-   <a href="<?php echo site_url('posts/create_dic_examination')?>" class="btn btn-info">Add New Value to Dic_examination</a>
+   <a href="<?php echo site_url('examinations/create_dic_examination')?>" class="btn btn-info">Add New Value to Examination</a>
     <hr>
 <!--
 <p><?php var_dump($dic_examination) ; ?></p>
@@ -33,8 +33,8 @@ if($keyword) {
             <td><?php echo $dic->from_date;?></td>
             <td><?php echo $dic->to_date?></td>
             <td>
-              <a href="<?php echo site_url('posts/edit_dic_examination/'.$dic->dic_examination_id)?>" class="btn btn-primary">Edit</a>
-              <a href="<?php echo site_url('posts/delete_dic_examination/'.$dic->dic_examination_id)?>" class="btn btn-danger">Delete</a>
+              <a href="<?php echo site_url('examinations/edit_dic_examination/'.$dic->dic_examination_id)?>" class="btn btn-primary">Edit</a>
+              <a href="<?php echo site_url('examinations/delete_dic_examination/'.$dic->dic_examination_id)?>" class="btn btn-danger">Delete</a>
             </td>
         </tr>
         <?php

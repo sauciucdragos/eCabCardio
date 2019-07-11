@@ -62,7 +62,7 @@
          Administration
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="<?php echo base_url(); ?>posts/create_dic_examination">Examination</a>
+           <a class="dropdown-item" href="<?php echo base_url(); ?>examinations/create_dic_examination">Examination</a>
 
            <a class="dropdown-item" href="">Laboratory test</a>
            <a class="dropdown-item" href="">User list</a>

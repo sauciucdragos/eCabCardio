@@ -3,7 +3,7 @@
     <div id="loginbox" style="margin-top:20px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
       <div class="panel panel-info card" >
         <div class="panel-heading">
-          <div class="panel-title"><b>Edit dic_examination</b></div>
+          <div class="panel-title"><b>Edit examination</b></div>
         </div>     
 
         <div style="padding-top:30px" class="panel-body" >
@@ -12,7 +12,7 @@
 
          <?php echo validation_errors(); ?> 
 
-    <form action="<?php echo site_url('posts/update_dic_examination/'.$dic_examination->dic_examination_id);?>" method="post">
+    <form action="<?php echo site_url('examinations/update_dic_examination/'.$dic_examination->dic_examination_id);?>" method="post">
 
 
 

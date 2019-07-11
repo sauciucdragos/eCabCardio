@@ -3,7 +3,7 @@
     <div id="loginbox" style="margin-top:20px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
       <div class="panel panel-info card" >
         <div class="panel-heading">
-          <div id="exam_title"class="panel-title"><b>Register dic_examination</b></div>
+          <div id="exam_title"class="panel-title"><b>Register examination</b></div>
         </div>     
 
         <div style="padding-top:30px" class="panel-body" >
@@ -12,7 +12,7 @@
 
          <?php echo validation_errors(); ?>
 
-         <?php echo form_open('posts/create_dic_examination','id="loginform" class="form-horizontal"');  ?>
+         <?php echo form_open('examinations/create_dic_examination','id="loginform" class="form-horizontal"');  ?>
 
          <!-- <form id="loginform" class="form-horizontal" role="form">
 			--> 
