@@ -17,8 +17,12 @@
 			<div class="form-group">
 				<input type="password" name="password" placeholder="Password" class="form-control"class="form-control">
 			</div>
+
 			<div class="form-group">
 				<input type="submit" name="submit" value="Login" class="btn btn-primary">
+				<?php 
+				echo $this->session->flashdata("error");
+				?>
 			</div>
 
 			</div>

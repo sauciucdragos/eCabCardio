@@ -6,7 +6,9 @@
  {
  	
  	function index()
- 	{
- 		echo "this is home";
+ 	{	
+ 		$this->load->view('header_beforelog');
+ 		$this->load->view('home');
+ 		$this->load->view('footer');
  	}
  }

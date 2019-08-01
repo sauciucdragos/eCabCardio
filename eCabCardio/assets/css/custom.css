@@ -1,0 +1,39 @@
+
+.containerr {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.thumbnail {
+  grid-column: span 12;
+}
+.navigation-menu {
+  grid-column: span 4;
+}
+.main-content {
+  grid-column: span 8;
+}
+.footer {
+  grid-column: span 12;
+}
+.page-header{
+
+}
+.thumbnail{			
+	text-align: center;
+	margin: 4px -4px -4px;			
+	min-height: 50px;
+	background-color: #f5f5f5;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 1px solid #ddd;
+    padding: 4px 10px;		    
+}
+.thumbnaill img{
+  max-width: 20%;
+}
+
+.thumbnail a {
+	text-decoration: none;
+	color: #5d5d5d;			
+}
+
